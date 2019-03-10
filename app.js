@@ -73,8 +73,7 @@ window.addEventListener("scroll", function(){
   if(pageYOffset < about.offsetTop - hh){
     color = 'white';
     background_color = 'transparent';
-  }
-  else{
+  } else{
     color = 'white';
     background_color = 'black';
   }
@@ -82,3 +81,4 @@ window.addEventListener("scroll", function(){
   header.style.color = color;
   
 })
+
