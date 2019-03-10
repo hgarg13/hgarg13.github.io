@@ -114,6 +114,7 @@ header {
 	animation: 1s fadein 0.5s forwards;
 	color: #fff;
 	z-index: 1;
+	transition: all 0.3s ease-in-out;
 
 }
 
@@ -243,6 +244,11 @@ img {
 	.about{
 		min-height: 100vh;
 	}
+	.about .title {
+		margin-top: 50px;
+		/* font-size: 40px;  */
+	}
+	
 }
 /*=============Services===============================================================================*/
 
@@ -277,6 +283,11 @@ img {
 	.skills .grid li{
 		flex-basis: 100%;
 		padding: 20px;
+	}
+
+	.skills .title {
+		margin-top: 50px;
+		/* font-size: 40px;  */
 	}
 }
 
@@ -398,6 +409,11 @@ min-width: 115px;
 @media (max-width: 800px) {
 	.projects {
 			min-height: 100vh;
+	}
+
+	.projects .title {
+		margin-top: 50px;
+		/* font-size: 40px;  */
 	}
 	.card{
 		flex-basis: 100%; 

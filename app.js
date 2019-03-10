@@ -70,10 +70,10 @@ var hh = header.offsetHeight;
 var color, background_color;
 
 window.addEventListener("scroll", function(){
-  if(pageYOffset < about.offsetTop - hh){
+  if(pageYOffset <=  hh){
     color = 'white';
     background_color = 'transparent';
-  } else{
+  } else {
     color = 'white';
     background_color = 'black';
   }
