@@ -137,6 +137,7 @@ header li {
 }
 
 .home .background-image {
+	background-image: url('home.jpg');
 	position: absolute;
 	top: 0;
 	left: 0;
