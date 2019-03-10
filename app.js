@@ -60,3 +60,25 @@ $(document).ready(function () {
 });
 
 // ===============================================================================
+var header = document.querySelector('header');
+var about = document.getElementById('about');
+var skills = document.getElementById('skills');
+var projects = document.getElementById('projects');
+var contact = document.getElementById('contact');
+var hh = header.offsetHeight;
+
+var color, background_color;
+
+window.addEventListener("scroll", function(){
+  if(pageYOffset < about.offsetTop - hh){
+    color = 'white';
+    background_color = 'transparent';
+  }
+  else{
+    color = 'white';
+    background_color = 'black';
+  }
+  header.style.background = background_color;
+  header.style.color = color;
+  
+})
